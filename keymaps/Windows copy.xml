@@ -1,0 +1,22 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="AddToFavoritesPopup" />
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="HippieCompletion" />
+  <action id="JumpToLastWindow" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="ViewMainMenu">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f1" />
+  </action>
+</keymap>

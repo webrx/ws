@@ -1,0 +1,31 @@
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2018-04-01T18:35:15</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2018.1.0.0</property>
+    <property name="modified">2019-10-31T13:32:51</property>
+    <property name="originalScheme">Default</property>
+  </metaInfo>
+  <colors>
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="777777" />
+  </colors>
+  <attributes>
+    <option name="HTML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="138018" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value />
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="561263" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="XML_TAG">
+      <value />
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,86 @@
+<toolSet name="External Tools">
+  <tool name="新建空白应用" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value=" -jar $ProjectFileDir$/webStorm-APICloud/webStorm_app.jar $ProjectFileDir$ $Prompt$ default" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="新建底部导航应用" description="java" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/webStorm_app.jar $ProjectFileDir$ $Prompt$ bottom" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="新建首页导航应用" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value=" -jar $ProjectFileDir$/webStorm-APICloud/webStorm_app.jar $ProjectFileDir$ $Prompt$ home" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="新建侧边导航应用" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value=" -jar $ProjectFileDir$/webStorm-APICloud/webStorm_app.jar $ProjectFileDir$ $Prompt$ slide" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="创建APICloud文件" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/webStorm_app.jar $ProjectFileDir$ $Prompt$ new $FileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name=" android真机同步" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/webStorm_loader.jar $ProjectFileDir$/webStorm-APICloud/ $FileDir$/" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="android本地打包" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/webStorm_pkg.jar $ProjectFileDir$/webStorm-APICloud $FileDir$ $ProjectFileDir$ android" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Android 日志输出" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/webStorm_log.jar $ProjectFileDir$/webStorm-APICloud" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="ios真机同步" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/webStorm_loader.jar $ProjectFileDir$/webStorm-APICloud/ $FileDir$ ios" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name=" ios本地打包" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value=" -jar $ProjectFileDir$/webStorm-APICloud/webStorm_pkg.jar $ProjectFileDir$/webStorm-APICloud $FileDir$ $ProjectFileDir$ ios" />
+      <option name="WORKING_DIRECTORY" value="#ProjectFileDir" />
+    </exec>
+  </tool>
+  <tool name="WiFi真机同步" description="WiFi真机同步 -- 全量同步" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/wifisyncmanager.jar 2 C:/APICloud/workspace/config_info $FileDir$ $ProjectFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="WiFi真机预览" description="实时真机预览HTML页面" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/wifisyncmanager.jar 4 C:/APICloud/workspace/config_info $FilePath$ $ProjectFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

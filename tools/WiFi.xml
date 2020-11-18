@@ -1,0 +1,30 @@
+<toolSet name="WiFi真机同步">
+  <tool name="安装服务" description="安装wifi同步真机同步到本机上" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="cmd" />
+      <option name="PARAMETERS" value="/C $ProjectFileDir$\webStorm-APICloud\wifisync_tools\APICloudWiFiSync.exe -install" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/webStorm-APICloud/wifisync_tools" />
+    </exec>
+  </tool>
+  <tool name="启动服务" description="启动wifi真机服务" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="cmd" />
+      <option name="PARAMETERS" value=" /C $ProjectFileDir$/webStorm-APICloud/wifisync_tools/APICloudWiFiSync.exe -start" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/webStorm-APICloud/wifisync_tools" />
+    </exec>
+  </tool>
+  <tool name="查看WiFi真机同步服务器地址" description="查看WiFi真机同步服务器地址,以便让手机上的apploader连接该服务器" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="java" />
+      <option name="PARAMETERS" value="-jar $ProjectFileDir$/webStorm-APICloud/wifisyncmanager.jar 1 C:/APICloud/workspace/config_info" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/webStorm-APICloud/" />
+    </exec>
+  </tool>
+  <tool name="停止服务" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="cmd" />
+      <option name="PARAMETERS" value="/C $ProjectFileDir$/webStorm-APICloud/wifisync_tools/APICloudWiFiSync.exe -stop" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
