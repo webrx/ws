@@ -1,0 +1,14 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="ECMAScript 6" injector-id="xml">
+      <display-name>script es6</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("script"))]]></place>
+      <xpath-condition>@type=&quot;es6&quot;</xpath-condition>
+    </injection>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<application>
+  <component name="EmmetOptions">
+    <option name="hrefAutoDetectEnabled" value="false" />
+    <option name="previewEnabled" value="true" />
+  </component>
+</application>

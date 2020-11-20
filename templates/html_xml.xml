@@ -1,0 +1,33 @@
+<templateSet group="html/xml">
+  <template name="ie9" value="&lt;!--这个的意思是,小于IE9的浏览器可以使用这个代码段执行,大于IE9的则不执行--&gt;&#10;&lt;!--IE8既不支持HTML5也不支持CSS3 Media，所以我们需要加载两个JS文件--&gt;&#10;    &lt;!-- 快捷键:使用的是emmte语法     cc:ie6--&gt;&#10;&lt;!--[if lt IE 9]&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/html5shiv/r29/html5.js&quot;&gt;&lt;/script&gt;&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;![endif]--&gt;" description="小于ie9的浏览器兼容H5方式" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cla" value="class=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="class=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="id" value="id=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="st" value="&lt;style type='text/css'&gt;&#10;$END$&#10;&lt;/style&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="scr" value="&lt;script type='text/javascript'&gt;&#10;$END$&#10;&lt;/script&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

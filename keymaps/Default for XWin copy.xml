@@ -1,0 +1,11 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="JumpToLastWindow" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+</keymap>

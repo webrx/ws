@@ -1,0 +1,25 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="angluar" />
+      <item value="mvvm" />
+      <item value="vue" />
+      <item value="react" />
+      <item value="captcha" />
+      <item value="arrow" />
+      <item value="reverse" />
+      <item value="Jumbotron" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="6" />
+        <entry key="ALBANIAN" value="1" />
+        <entry key="FRENCH" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
+  </component>
+</application>

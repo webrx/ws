@@ -1,0 +1,57 @@
+<templateSet group="Zen HTML">
+  <template name="!!!" value="&lt;!DOCTYPE html&gt;" description="&lt;!doctype html&gt;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="!" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;$ENV_LOCALE$&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;$CHARSET$&quot;&gt;&#10;             &lt;meta name=&quot;viewport&quot; content=&quot;width=$WIDTH$, initial-scale=$INITIAL_SCALE$&quot;&gt;&#10;             &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=$IE$&quot;&gt;&#10;             &lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ENV_LOCALE" expression="" defaultValue="&quot;zh-CN&quot;" alwaysStopAt="true" />
+    <variable name="CHARSET" expression="" defaultValue="&quot;utf-8&quot;" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="" defaultValue="&quot;device-width&quot;" alwaysStopAt="true" />
+    <variable name="INITIAL_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
+    <variable name="IE" expression="" defaultValue="&quot;edge&quot;" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="&quot;webrx&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="html:5" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;$ENV_LOCALE$&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;$CHARSET$&quot;&gt;&#10;             &lt;meta name=&quot;viewport&quot; content=&quot;width=$WIDTH$, user-scalable=$SCALABLE$, initial-scale=$INITIAL_SCALE$, maximum-scale=$MAX_SCALE$, minimum-scale=$MIN_SCALE$&quot;&gt;&#10;                         &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=$IE$&quot;&gt;&#10;             &lt;title&gt;$TITLE$&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ENV_LOCALE" expression="" defaultValue="&quot;zh-CN&quot;" alwaysStopAt="true" />
+    <variable name="CHARSET" expression="" defaultValue="&quot;utf-8&quot;" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="" defaultValue="&quot;device-width&quot;" alwaysStopAt="true" />
+    <variable name="SCALABLE" expression="" defaultValue="&quot;no&quot;" alwaysStopAt="true" />
+    <variable name="INITIAL_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
+    <variable name="MAX_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
+    <variable name="MIN_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
+    <variable name="IE" expression="" defaultValue="&quot;edge&quot;" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="&quot;webrx&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="c" value="&lt;!-- $END$ --&gt;" description="&lt;!-- --&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="a" value="&lt;a href=&quot;$VAR0$&quot;&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;...&quot;&gt;...&lt;/a&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="br" value="&lt;br&gt;" description="&lt;br&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="hr" value="&lt;hr&gt;" description="&lt;hr&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="link:css" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;$STYLE$.css&quot; &gt;" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; &gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="STYLE" expression="" defaultValue="&quot;style&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="style" value="&lt;style&gt;$END$&lt;/style&gt;" description="&lt;style&gt;...&lt;/style&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="script" value="&lt;script&gt;$END$&lt;/script&gt;" description="&lt;script&gt;...&lt;/script&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="meta" value="&lt;meta&gt;" description="&lt;meta&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="img" value="&lt;img src=&quot;$VAR0$&quot; alt=&quot;$VAR1$&quot;&gt;" description="&lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
