@@ -110,4 +110,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="es6" value="ECMAScript 6（简称ES6）是于2015年6月正式发布的JavaScript语言的标准，正式名为ECMAScript 2015（ES2015）。&#10;它的目标是使得JavaScript语言可以用来编写复杂的大型应用程序，成为企业级开发语言。" description="waht ECMAScript 6 ?" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

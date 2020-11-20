@@ -20,6 +20,9 @@
   </action>
   <action id="DumpLookupElementWeights" />
   <action id="EditorSelectWord" />
+  <action id="EditorToggleShowBreadcrumbs">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f8" />
+  </action>
   <action id="EditorToggleShowGutterIcons">
     <keyboard-shortcut first-keystroke="shift ctrl alt f6" />
   </action>
@@ -43,6 +46,7 @@
   </action>
   <action id="RunJsbtTask" />
   <action id="ShowSettingsAndFindUsages" />
+  <action id="ToggleTemporaryLineBreakpoint" />
   <action id="ViewMainMenu">
     <keyboard-shortcut first-keystroke="shift ctrl alt f1" />
   </action>
