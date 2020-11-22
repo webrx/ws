@@ -116,4 +116,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="es6max" value="let d = [10,2,3,1,0,50];&#10;console.log(Math.max(...d),Math.min(...d));&#10;&#10;&#10;d = [{id:1,name:'lisi'},{id:9,name:'jack'}];&#10;console.log(Math.max(...d.map(o=&gt;o.id)));" description="es6求最集合最大值" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
