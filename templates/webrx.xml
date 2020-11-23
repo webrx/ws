@@ -116,4 +116,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="es6map" value="//es6 map 映射数据类型&#10;let m = new Map();&#10;m.set('01', 'java');&#10;m.set('02', 'javascript');&#10;m.set('01', 'java');&#10;console.log(m.size);//2&#10;let i = m.delete('01');&#10;console.log(i, m.size);//true 1&#10;console.log(m.get('02'));//javascript&#10;console.log(m.has(&quot;02&quot;));//true&#10;m.forEach((value, key) =&gt; {&#10;    console.log(value, key)&#10;});&#10;for(let k of m.keys()){&#10;    console.log(k)&#10;}&#10;for(let v of m.values()){&#10;    console.log(v)&#10;}&#10;for(let [k,v] of m.entries()){&#10;    console.log(k,v)&#10;}&#10;&#10;m.clear();&#10;console.log(m.size)&#10;delete m;&#10;" description="es6 Map映射" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
